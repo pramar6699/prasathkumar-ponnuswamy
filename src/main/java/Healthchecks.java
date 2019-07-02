@@ -1,0 +1,2 @@
+public class Healthchecks {
+}
