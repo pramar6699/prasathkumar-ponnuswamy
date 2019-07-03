@@ -9,22 +9,24 @@ import org.json.simple.JSONObject;
 
 public class Products {
 
+    public Products() {
+
+        baseURI = "http://localhost:3030/products";
+    }
 
     public Response productGet() {
 
-        baseURI = "http://localhost:3030/products";
 
-        return given().queryParam("manufacturer","Duracell").request(Method.GET);
+        return given().queryParam("manufacturer", "Duracell").request(Method.GET);
 
     }
 
-    public Response productCreate(){
+    public Response productCreate() {
 
-        baseURI = "http://localhost:3030/products";
 
         RequestSpecification httpRequest = RestAssured.given();
 
-        httpRequest.header("Content-Type","application/json");
+        httpRequest.header("Content-Type", "application/json");
 
         JSONObject jsonObject = new JSONObject();
 
@@ -40,9 +42,8 @@ public class Products {
         return httpRequest.request(Method.POST);
     }
 
-    public Response productEdit(){
+    public Response productEdit() {
 
-        baseURI = "http://localhost:3030/products";
 
         RequestSpecification httpRequest = RestAssured.given();
 
@@ -55,14 +56,12 @@ public class Products {
         jsonObject.put("description", "This is a placeholder request for creating a new product");
         jsonObject.put("model", "NP12345");
 
-        return httpRequest.queryParam("id","9999687").request(Method.PATCH);
+        return httpRequest.queryParam("id", "9999687").request(Method.PATCH);
     }
 
-    public Response productDelete(){
+    public Response productDelete() {
 
-        baseURI = "http://localhost:3030/products";
-
-        return given().queryParam("id","9999691").request(Method.DELETE);
+        return given().queryParam("id", "9999691").request(Method.DELETE);
 
     }
 }
