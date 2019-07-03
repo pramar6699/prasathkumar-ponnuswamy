@@ -8,11 +8,14 @@ Test Suite: Money App for iOS Testing
 
 | Test Case ID | Monefy\_01 | Test Case Description | Dashboard Testing (Positive &amp; Negative) |
 | --- | --- | --- | --- |
+
 | Created By | Pramar6699 | Reviewed By | Mark | Version | 2.1 |
+
 | Tester&#39;s Name | Pramar | Date Tested | 1-Jan-2017 | Test Case (Pass/Fail/Not Executed) | Pass |
 | S# | Pre-Requirements |
 | 1 | Dashboard is implemented and accessible |
 | 2 | Make sure required Data is available |
+
 | Test Procedure | Verifying the Dashboard functionality   |
 | Step # | Step Details | Expected Results | Actual Results | Status | Comments |
 | 1 | Click any one category in Dashboard | New expense sheet opened for tat | As Expected | Pass |   |
