@@ -26,7 +26,11 @@ Note - **pom.xml contains the required dependencies for Maven and so**
 
 Once the Project is Imported. Run TestNG.xml file in the IntellIJ Console or Run mvn clean test in terminal
 
-### SRC Break down into main & Test Package
+### SRC Break down into
+
+* main/java
+* test/java
+* testng.xml
 
 **Notes: Create Call for /categories Endpoint - asserted with value expected as "400". Since, we need to give unique ID for every new call and to keep it simple for now. Have hardcoded it in the Categories class.** 
 
