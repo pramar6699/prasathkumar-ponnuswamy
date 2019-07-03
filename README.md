@@ -1,6 +1,7 @@
-# Home Challenge
+# Home Challenge is finished for Task 1 & Task 3
 
-This repository contains a folder **Task** contains Home 
+This repository contains a folder **Task** and rest folder **src, pom.xml, 
+
 ## Getting Started
 
 Un-zip UI_Automation file and Import the project
