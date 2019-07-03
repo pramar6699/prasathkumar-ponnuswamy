@@ -14,6 +14,14 @@
 
 # Task 3. Restful API in Best Buy API playground #
 
-- [x] **Proposal for Automation Test:** **Get,Set,Put,Delete** call for all Endpoints Happy & Sad case
+- [x] **Proposal for Automation Test:** **Get,Set,Put,Delete** call for all Endpoints both Happy & Sad case
 
+**Given Automation Solution** Contains the **Main(Page Objects) Package & Test Package** - Have automated most requried API calls for the localhost:3030 setup and its Endpoints mentioned below
+
+**/products**
+**/categories**
+**/stores**
+**/services**
+**/version**
+**/healthcheck**
 	
