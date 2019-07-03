@@ -1,6 +1,6 @@
 # Task 1.Money App for iOS Testing #	
 
-- [x] **Scope to cover the main structure Monefy App are below**
+- [x] **Scope to setup - main structure of Monefy App are below:**
 * Dashboard 
 * Categories 
 * Multi currency
