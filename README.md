@@ -1,6 +1,6 @@
 # Home Challenge is finished for Task 1 & Task 3
 
-This repository contains a folder **Task** and rest folder **src, pom.xml, 
+folder **Task** contains Explanation part for Task 1 - Test case & Task 3 Deatils about Automation and rest folder **src, .idea, pom.xml** files is automation part
 
 ## Getting Started
 
