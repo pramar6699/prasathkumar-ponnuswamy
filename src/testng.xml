@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="com.n26" verbose="5" configfailurepolicy="continue">
+<suite name="com.API_Automation" verbose="5" configfailurepolicy="continue">
 
-    <test name="test.com.n26.1"><classes><class name="Category"></class></classes></test>
-    <test name="test.com.n26.2"><classes><class name="CategoryFalseCase"></class></classes></test>
-    <test name="test.com.n26.3"><classes><class name="HealthCheck"></class></classes></test>
-    <test name="test.com.n26.4"><classes><class name="Product"></class></classes></test>
-    <test name="test.com.n26.5"><classes><class name="ProductFalseCase"></class></classes></test>
-    <test name="test.com.n26.6"><classes><class name="Service"></class></classes></test>
-    <test name="test.com.n26.7"><classes><class name="ServiceFalseCase"></class></classes></test>
-    <test name="test.com.n26.8"><classes><class name="Store"></class></classes></test>
-    <test name="test.com.n26.9"><classes><class name="StoreFalseCase"></class></classes></test>
-    <test name="test.com.n26.10"><classes><class name="Version"></class></classes></test>
+    <test name="test.com.API_Automation.1"><classes><class name="Category"></class></classes></test>
+    <test name="test.com.API_Automation.2"><classes><class name="CategoryFalseCase"></class></classes></test>
+    <test name="test.com.API_Automation.3"><classes><class name="HealthCheck"></class></classes></test>
+    <test name="test.com.API_Automation.4"><classes><class name="Product"></class></classes></test>
+    <test name="test.com.API_Automation.5"><classes><class name="ProductFalseCase"></class></classes></test>
+    <test name="test.com.API_Automation.6"><classes><class name="Service"></class></classes></test>
+    <test name="test.com.API_Automation.7"><classes><class name="ServiceFalseCase"></class></classes></test>
+    <test name="test.com.API_Automation.8"><classes><class name="Store"></class></classes></test>
+    <test name="test.com.API_Automation.9"><classes><class name="StoreFalseCase"></class></classes></test>
+    <test name="test.com.API_Automation.10"><classes><class name="Version"></class></classes></test>
 
 </suite>
