@@ -7,8 +7,6 @@
 * TestNG
 * Maven
 
-folder **Task** contains Explanation part for Task 1 - Test case & Task 3 Deatils about Automation and rest folder **src, .idea, pom.xml** files is automation part
-
 ### Getting Started
 
 Clone **https://github.com/pramar6699/prasathkumar-ponnuswamy.git** and Import the project
